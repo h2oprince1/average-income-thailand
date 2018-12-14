@@ -3,6 +3,8 @@
 This Project is a part of the subject Problem Solving in information Technology *(PSIT)*, Faculty of Information Technology,
 King Mongkut's Institute of Technology Ladkrabang *(KMITL)*.
 
+This project is about
+
 # Information
 * **Project Site :**
 * **Last Updated :**
