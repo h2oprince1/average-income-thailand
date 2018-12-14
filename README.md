@@ -4,7 +4,7 @@ This Project is a part of the subject Problem Solving in information Technology 
 King Mongkut's Institute of Technology Ladkrabang *(KMITL)*.
 
 This project is about doing call namelist in Subject, We've chosen the Line-Bot for this project. Our main target is to 
-created comfortable for student and teacher in the name for check.
+created comfortable for student and teacher in the name for checklist.
 
 # Statics 
 * **Started :** 14th December 2018
