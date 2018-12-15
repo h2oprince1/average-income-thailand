@@ -4,7 +4,7 @@ This Project is a part of the subject Problem Solving in information Technology 
 King Mongkut's Institute of Technology Ladkrabang *(KMITL)*.
 
 # About of Our Project
-Test2
+Project ของพวกเราจะวิเคราะห์ข้อมูลของประเทศไทยเกี่ยวกับจำนวนครัวเรือนที่คนในครัวเรือนมีรายได้เฉลี่ยน้อยกว่า 30,000 บาท ต่อคนต่อปีโดยจะแสดงผลเป็นกราฟข้อมูลของแต่ละปีและทำการสรุป
 
 # Information
 * **Project Site :**
