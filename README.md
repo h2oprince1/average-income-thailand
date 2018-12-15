@@ -4,7 +4,7 @@ This Project is a part of the subject Problem Solving in information Technology 
 King Mongkut's Institute of Technology Ladkrabang *(KMITL)*.
 
 # About of Our Project
-TESTaaaaaaaaaaaaaaaaaaaaaa
+Test2
 
 # Information
 * **Project Site :**
