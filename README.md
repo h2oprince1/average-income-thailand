@@ -16,7 +16,7 @@ Project ของพวกเราจะวิเคราะห์ข้อม
 * **Completed :** th December 2018
 * **Total Days :** Days
 * **Main Language :** Python
-* **Other Language :**
+* **Other Language :** HTML, CSS, JavaScript
 
 # Group Members
 <table>
