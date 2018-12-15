@@ -41,8 +41,14 @@ Project ของพวกเราจะวิเคราะห์ข้อม
 </table>
 
 # Credits
-[VIEW](https://data.go.th/DatasetDetail.aspx?id=0d929453-42e0-4c8c-bac2-5a73e53fde65)
-<br>
+* [[VIEW]](https://data.go.th/DatasetDetail.aspx?id=0d929453-42e0-4c8c-bac2-5a73e53fde65) จำนวนครัวเรือนที่คนในครัวเรือนมีรายได้เฉลี่ยน้อยกว่า 30,000 บาทต่อปี จากข้อมูลปี 2555-2558
+* [[VIEW]](https://startbootstrap.com/template-overviews/agency/) Agency Template form Start Bootstrap
+* [[VIEW]](https://startbootstrap.com/template-overviews/full-slider/) Full Slider Template from Start Bootstrap
+* [[VIEW]](http://ianlunn.github.io/Hover/) Hover Effects by Ian Lunn (hover.css)
+
+
+
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org)
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
