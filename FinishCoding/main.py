@@ -6,7 +6,7 @@ def main():
     graph_per_region()
     graph_per_year()
 
-def callflie():
+def callfile():
     """
     Get values from database
     """
@@ -19,7 +19,7 @@ def graph_per_region():
     """
     group data each years
     """
-    table = callflie()
+    table = callfile()
     years_2558 = [each for each in table if "2558" in each]
     years_2557 = [each for each in table if "2557" in each]
     years_2556 = [each for each in table if "2556" in each]
@@ -31,10 +31,10 @@ def graph_per_region():
     values55 = locations(years_2555)
 
 
-    x = ["", "South", "West", "East north", "Center", "East", "North", ""]
+    x = ["", "South", "West", "East north", "Central", "East", "North", ""]
     ghp = pygal.Line()
     ghp.x_labels = x
-    ghp.title = " จำนวนคนต่อครัวที่รายได้ต่ำกว่า 30,000 บาท แบ่งตามภาค "
+    ghp.title = " จำนวนคนต่อครัวเรือนที่รายได้ต่ำกว่า 30,000 บาท แบ่งตามภาค ปี 2555-2558"
     ghp.add("2558", values58)
     ghp.add("2557", values57)
     ghp.add("2556", values56)
@@ -52,7 +52,7 @@ def locations(year):
     east = [int(location[4].replace(",", "")) for location in year if "East" in location]
     north = [int(location[4].replace(",", "")) for location in year if "North" in location]
 
-    listvaluse = [sum(south), sum(west), sum(east_n), sum(center), sum(east), sum(north)]
+    listvaluse = [0, sum(south), sum(west), sum(east_n), sum(center), sum(east), sum(north), 0]
     return listvaluse
 def graph_per_year():
     """
@@ -87,7 +87,7 @@ def graph_per_year():
     y = 0
     ghp = pygal.Bar()
     ghp.x_labels = data_x
-    ghp.title = "จำนวนคนต่อครัวเรื่อนที่รายได้ต่ำกว่า 30,000 บาท ทั้งประเทศ ปี 2555-2558"
+    ghp.title = " จำนวนคนต่อครัวที่รายได้ต่ำกว่า 30,000 บาท แบ่งตามภาค "
     ghp.add("Amount people", data_y)
     return ghp.render_to_file('graph_per_year.svg')
 
