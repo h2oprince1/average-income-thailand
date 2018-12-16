@@ -34,7 +34,7 @@ def graph_per_region():
     x = ["", "South", "West", "East north", "Central", "East", "North", ""]
     ghp = pygal.Line()
     ghp.x_labels = x
-    ghp.title = "จำนวนประชากรต่อครัวเรือนที่รายได้ต่ำกว่า 30,000 บาท แบ่งตามภาค \nปี พ.ศ. 2555-2558"
+    ghp.title = "จำนวนประชากรต่อครัวเรือนที่รายได้ต่ำกว่า 30,000 บาท แบ่งตามภาค [CHART B1] \nปี พ.ศ. 2555-2558"
     ghp.add("2558", values58)
     ghp.add("2557", values57)
     ghp.add("2556", values56)
@@ -65,7 +65,7 @@ def graph_per_year():
     for i in range(4):
         data_x.append(str(2555+i))
 
-    file = open('data/database1.csv')
+    file = open('database/database1.csv')
     data = csv.reader(file)
     table = [row for row in data]
 
@@ -87,7 +87,7 @@ def graph_per_year():
     y = 0
     ghp = pygal.Bar()
     ghp.x_labels = data_x
-    ghp.title = "จำนวนประชากรต่อครัวเรื่อนที่รายได้ต่ำกว่า 30,000 บาท ทั้งประเทศ \nปี พ.ศ. 2555-2558"
+    ghp.title = "จำนวนประชากรต่อครัวเรื่อนที่รายได้ต่ำกว่า 30,000 บาท ทั้งประเทศ [CHART B2]\nปี พ.ศ. 2555-2558"
     ghp.add("Amount people", data_y)
     return ghp.render_to_file('Chart/graph_per_year.svg')
 
