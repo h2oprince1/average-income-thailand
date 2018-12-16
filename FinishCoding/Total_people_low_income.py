@@ -10,12 +10,12 @@ def main():
     human56 = locations(y56, 4)
     human55 = locations(y55, 4)
 
-    eachsouth = [human58[0], human57[0], human56[0], human55[0]]
-    eachwest = [human58[1], human57[1], human56[1], human55[1]]
-    eacheast_n = [human58[2], human57[2], human56[2], human55[2]]
-    eachcenter = [human58[3], human57[3], human56[3], human55[3]]
-    eacheast = [human58[4], human57[4], human56[4], human55[4]]
-    eachnorth = [human58[5], human57[5], human56[5], human55[5]]
+    eachsouth = [human55[0], human56[0], human57[0], human58[0]]
+    eachwest = [human55[1], human56[1], human57[1], human58[1]]
+    eacheast_n = [human55[2], human56[2], human57[2], human58[2]]
+    eachcenter = [human55[3], human56[3], human57[3], human58[3]]
+    eacheast = [human55[4], human56[4], human57[4], human58[4]]
+    eachnorth = [human55[5], human56[5], human57[5], human58[5]]
 
     group_values = [eachsouth, eachwest, eacheast_n, eachcenter, eacheast, eachnorth]
     create_ghp(group_values).render_to_file('graph_total_people_lowincome_each_years.svg')
