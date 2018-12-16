@@ -27,10 +27,10 @@ def main():
     list56 = list(avg56)
     list55 = list(avg55)
 
-    createpie_ghp(list58, "2558").render_to_file('Chart/graph_percen58.svg')
-    createpie_ghp(list57, "2557").render_to_file('Chart/graph_percen57.svg')
-    createpie_ghp(list56, "2556").render_to_file('Chart/graph_percen56.svg')
-    createpie_ghp(list55, "2555").render_to_file('Chart/graph_percen55.svg')
+    createpie_ghp(list58, "2558", 4).render_to_file('Chart/graph_percen58.svg')
+    createpie_ghp(list57, "2557", 3).render_to_file('Chart/graph_percen57.svg')
+    createpie_ghp(list56, "2556", 2).render_to_file('Chart/graph_percen56.svg')
+    createpie_ghp(list55, "2555", 1).render_to_file('Chart/graph_percen55.svg')
 
 
 def callfile():
@@ -56,12 +56,12 @@ def locations(year, loca):
     listvaluse = [sum(south), sum(west), sum(east_n), sum(center), sum(east), sum(north)]
     return listvaluse
 
-def createpie_ghp(list_in, year):
+def createpie_ghp(list_in, year, ghp):
     """
     Creath the graph type Pie.
     """
     pie_chart = pygal.Pie()
-    pie_chart.title = ('ร้อยละประชากรต่อครัวเรือนที่มีรายได้ต่ำกว่า 30,000 บาท ปี พ.ศ. %s (%%)' %year)
+    pie_chart.title = ('ร้อยละประชากรต่อครัวเรือนที่มีรายได้ต่ำกว่า 30,000 บาท ปี พ.ศ. %s (%%) [CHART P%d]' %(year, ghp))
     pie_chart.add('North', float2(list_in[5]))
     pie_chart.add('West', float2(list_in[1]))
     pie_chart.add('East north', float2(list_in[2]))
