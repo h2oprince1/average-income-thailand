@@ -1,0 +1,304 @@
+﻿1,2558,Krabi,"90,523",365,0.4,South
+2,2558,Kanchanaburi,"156,721",24,0.02,West
+3,2558,Kalasin,"205,284",671,0.33,East north
+4,2558,Kamphaeng Phet,"151,561",271,0.18,Center
+5,2558,Khon Kaen,"338,432","1,771",0.52,East north
+6,2558,Chanthaburi,"99,639","1,194",1.2,East
+7,2558,Chachoengsao,"145,392",380,0.26,East
+8,2558,Chon Buri,"321,403",299,0.09,East
+9,2558,Chai Nat,"88,747",530,0.6,Center
+10,2558,Chaiyaphum,"262,012",400,0.15,East north
+11,2558,Chumphon,"101,288",0,0,South
+12,2558,Chiang Rai,"297,147",817,0.27,North
+13,2558,Chiang Mai,"379,213",931,0.25,North
+14,2558,Trang,"133,592",253,0.19,South
+15,2558,Trat,"48,010",44,0.09,East
+16,2558,Tak,"119,561",645,0.54,West
+17,2558,Nakhon Nayok,"56,512",32,0.06,Center
+18,2558,Nakhon Pathom,"157,210",0,0,Center
+19,2558,Nakhon Phanom,"167,167",122,0.07,East north
+20,2558,Nakhon Ratchasima,"669,011","1,808",0.27,East north
+21,2558,Nakhon Si Thammarat,"318,805","4,520",1.42,South
+22,2558,Nakhon Sawan,"254,551","1,316",0.52,Center
+23,2558,Nonthaburi,"153,518","1,395",0.91,Center
+24,2558,Narathiwat,"143,181",517,0.36,South
+25,2558,Nan,"110,609",965,0.87,North
+26,2558,Bueng Kan,"90,899",304,0.33,East north
+27,2558,Buri Ram,"340,495","1,689",0.5,East north
+28,2558,Pathum Thani,"221,965",668,0.3,Center
+29,2558,Prachuap Khiri Khan,"107,712",675,0.63,West
+30,2558,Prachinburi,"112,936",42,0.04,East
+31,2558,Pattani,"124,856","2,829",2.27,South
+32,2558,Phra Nakhon Si Ayutthaya,"177,442",522,0.29,Center
+33,2558,Phayao,"117,529","1,635",1.39,North
+34,2558,Phangnga,"55,788",101,0.18,South
+35,2558,Phatthalung,"131,716",11,0.01,South
+36,2558,Phichit,"122,998",913,0.74,Center
+37,2558,Phitsanulok,"183,911",667,0.36,Center
+38,2558,Phetchaburi,"100,475",225,0.22,West
+39,2558,Phetchabun,"239,125",367,0.15,Center
+40,2558,Phrae,"118,794",291,0.24,North
+41,2558,Phuket,"87,140",382,0.44,South
+42,2558,Maha Sarakham,"219,269","1,266",0.58,East north
+43,2558,Mukdahan,"87,742",183,0.21,East north
+44,2558,Mae Hong Son,"56,294","1,382",2.45,North
+45,2558,Yasothon,"128,173",218,0.17,East north
+46,2558,Yala,"103,107",405,0.39,South
+47,2558,Roi Et,"290,033",682,0.24,East north
+48,2558,Ranong,"46,435",223,0.48,South
+49,2558,Rayong,"155,329",0,0,East
+50,2558,Ratchaburi,"162,638",523,0.32,West
+51,2558,Lopburi,"184,246",175,0.09,Center
+52,2558,Lampang,"209,458","3,098",1.48,North
+53,2558,Lamphun,"114,347",671,0.59,North
+54,2558,Loei,"155,650",715,0.46,East north
+55,2558,Sisaket,"272,223","1,537",0.56,East north
+56,2558,Sakon Nakhon,"248,503",312,0.13,East north
+57,2558,Songkhla,"291,578",219,0.08,South
+58,2558,Satun,"69,399",116,0.17,South
+59,2558,Samut Prakan,"307,386",322,0.1,Center
+60,2558,Samut Songkhram,"44,961",21,0.05,Center
+61,2558,Samut Sakhon,"117,039",37,0.03,Center
+62,2558,Sa Kaeo,"117,731",153,0.13,East
+63,2558,Saraburi,"137,763",323,0.23,Center
+64,2558,Sing Buri,"51,807",31,0.06,Center
+65,2558,Sukhothai,"135,263",774,0.57,Center
+66,2558,Suphan Buri,"214,583",31,0.01,Center
+67,2558,Surat Thani,"205,257",680,0.33,South
+68,2558,Surin,"265,283","1,085",0.41,East north
+69,2558,Nong Khai,"100,933",326,0.32,East north
+70,2558,Nong Bua Lamphu,"102,024",264,0.26,East north
+71,2558,Ang Thong,"71,170",498,0.7,Center
+72,2558,Amnat Charoen,"84,774",382,0.45,East north
+73,2558,Udon Thani,"330,498","1,445",0.44,Center
+74,2558,Uttaradit,"118,271",619,0.52,North
+75,2558,Uthai Thani,"83,713","1,318",1.57,East north
+76,2558,Ubon Ratchathani,"367,651",456,0.12,East north
+1,2557,Krabi,"88,833",218,0.25,South
+2,2557,Kanchanaburi,"149,166",3,0,West
+3,2557,Kalasin,"201,302","1,218",0.61,East north
+4,2557,Kamphaeng Phet,"144,940",548,0.38,Center
+5,2557,Khon Kaen,"330,084","1,900",0.58,East north
+6,2557,Chanthaburi,"98,108","1,475",1.5,East
+7,2557,Chachoengsao,"144,216",275,0.19,East
+8,2557,Chon Buri,"301,091",518,0.17,East
+9,2557,Chai Nat,"87,981",354,0.4,Center
+10,2557,Chaiyaphum,"261,059",599,0.23,East north
+11,2557,Chumphon,"99,745",3,0,South
+12,2557,Chiang Rai,"296,787",550,0.19,North
+13,2557,Chiang Mai,"365,797",551,0.15,North
+14,2557,Trang,"130,116",293,0.23,South
+15,2557,Trat,"46,857",19,0.04,East
+16,2557,Tak,"117,668","1,743",1.48,West
+17,2557,Nakhon Nayok,"55,598",33,0.06,Center
+18,2557,Nakhon Pathom,"145,954",0,0,Center
+19,2557,Nakhon Phanom,"166,573",538,0.32,East north
+20,2557,Nakhon Ratchasima,"666,055","2,092",0.31,East north
+21,2557,Nakhon Si Thammarat,"313,547","3,598",1.15,South
+22,2557,Nakhon Sawan,"235,085",956,0.41,Center
+23,2557,Nonthaburi,"118,184","1,058",0.9,Center
+24,2557,Narathiwat,"145,689",812,0.56,South
+25,2557,Nan,"109,889",842,0.77,North
+26,2557,Bueng Kan,"90,684",302,0.33,East north
+27,2557,Buri Ram,"339,443","2,082",0.61,East north
+28,2557,Pathum Thani,"167,302",293,0.18,Center
+29,2557,Prachuap Khiri Khan,"98,350",467,0.47,West
+30,2557,Prachinburi,"111,968",38,0.03,East
+31,2557,Pattani,"120,329","1,944",1.62,South
+32,2557,Phra Nakhon Si Ayutthaya,"163,675",488,0.3,Center
+33,2557,Phayao,"116,713","2,127",1.82,North
+34,2557,Phangnga,"50,226",23,0.05,South
+35,2557,Phatthalung,"130,441",47,0.04,South
+36,2557,Phichit,"118,506","1,403",1.18,Center
+37,2557,Phitsanulok,"177,640","1,557",0.88,Center
+38,2557,Phetchaburi,"98,614",485,0.49,West
+39,2557,Phetchabun,"237,852",346,0.15,Center
+40,2557,Phrae,"118,083",365,0.31,North
+41,2557,Phuket,"83,248",0,0,South
+42,2557,Maha Sarakham,"218,597","1,724",0.79,East north
+43,2557,Mukdahan,"86,206",274,0.32,East north
+44,2557,Mae Hong Son,"54,413","1,759",3.23,North
+45,2557,Yasothon,"127,693",475,0.37,East north
+46,2557,Yala,"100,927",292,0.29,South
+47,2557,Roi Et,"289,648",772,0.27,East north
+48,2557,Ranong,"43,498",212,0.49,South
+49,2557,Rayong,"143,971",27,0.02,East
+50,2557,Ratchaburi,"155,591",295,0.19,West
+51,2557,Lopburi,"182,016",181,0.1,Center
+52,2557,Lampang,"202,981","4,014",1.98,North
+53,2557,Lamphun,"112,572",543,0.48,North
+54,2557,Loei,"155,233",641,0.41,East north
+55,2557,Sisaket,"266,608","1,072",0.4,East north
+56,2557,Sakon Nakhon,"247,699",261,0.11,East north
+57,2557,Songkhla,"226,768",413,0.18,South
+58,2557,Satun,"68,622",0,0,South
+59,2557,Samut Prakan,"298,645",648,0.22,Center
+60,2557,Samut Songkhram,"44,816",0,0,Center
+61,2557,Samut Sakhon,"98,097",69,0.07,Center
+62,2557,Sa Kaeo,"115,906",205,0.18,East
+63,2557,Saraburi,"128,250",526,0.41,Center
+64,2557,Sing Buri,"51,304",47,0.09,Center
+65,2557,Sukhothai,"133,605",719,0.54,Center
+66,2557,Suphan Buri,"213,976",50,0.02,Center
+67,2557,Surat Thani,"180,812","1,012",0.56,South
+68,2557,Surin,"262,127","1,063",0.41,East north
+69,2557,Nong Khai,"99,735",266,0.27,East north
+70,2557,Nong Bua Lamphu,"101,462",334,0.33,East north
+71,2557,Ang Thong,"69,702",418,0.6,Center
+72,2557,Amnat Charoen,"84,243",411,0.49,East north
+73,2557,Udon Thani,"315,000","2,352",0.75,Center
+74,2557,Uttaradit,"117,901",327,0.28,North
+75,2557,Uthai Thani,"83,417","1,073",1.29,East north
+76,2557,Ubon Ratchathani,"353,923",199,0.06,East north
+1,2556,Krabi,"67,576",50,0.07,South
+2,2556,Kanchanaburi,"108,796",0,0,West
+3,2556,Kalasin,"154,804","1,445",0.93,East north
+4,2556,Kamphaeng Phet,"113,827",83,0.07,Center
+5,2556,Khon Kaen,"245,632","3,127",1.27,East north
+6,2556,Chanthaburi,"71,534",286,0.4,East
+7,2556,Chachoengsao,"89,440",49,0.05,East
+8,2556,Chon Buri,"81,641",4,0,East
+9,2556,Chai Nat,"65,110",47,0.07,Center
+10,2556,Chaiyaphum,"179,864",614,0.34,East north
+11,2556,Chumphon,"82,671",8,0.01,South
+12,2556,Chiang Rai,"192,778",673,0.35,North
+13,2556,Chiang Mai,"255,366",972,0.38,North
+14,2556,Trang,"100,815",6,0.01,South
+15,2556,Trat,"29,683",0,0,East
+16,2556,Tak,"73,435","1,026",1.4,West
+17,2556,Nakhon Nayok,"44,957",46,0.1,Center
+18,2556,Nakhon Pathom,"117,915",1,0,Center
+19,2556,Nakhon Phanom,"117,058","1,326",1.13,East north
+20,2556,Nakhon Ratchasima,"398,635","2,135",0.54,East north
+21,2556,Nakhon Si Thammarat,"235,534","1,528",0.65,South
+22,2556,Nakhon Sawan,"172,267",150,0.09,Center
+23,2556,Nonthaburi,"62,145",0,0,Center
+24,2556,Narathiwat,"90,159",282,0.31,South
+25,2556,Nan,"92,780",751,0.81,North
+26,2556,Bueng Kan,"57,703",430,0.75,East north
+27,2556,Buri Ram,"233,612","2,756",1.18,East north
+28,2556,Pathum Thani,"77,390",0,0,Center
+29,2556,Prachuap Khiri Khan,"62,864",53,0.08,West
+30,2556,Prachinburi,"78,229",8,0.01,East
+31,2556,Pattani,"85,141","1,614",1.9,South
+32,2556,Phra Nakhon Si Ayutthaya,"107,299",17,0.02,Center
+33,2556,Phayao,"87,357","2,398",2.75,North
+34,2556,Phangnga,"43,447",36,0.08,South
+35,2556,Phatthalung,"96,943",50,0.05,South
+36,2556,Phichit,"88,400",741,0.84,Center
+37,2556,Phitsanulok,"133,046",414,0.31,Center
+38,2556,Phetchaburi,"65,430",206,0.31,West
+39,2556,Phetchabun,"166,827",616,0.37,Center
+40,2556,Phrae,"88,066",314,0.36,North
+41,2556,Phuket,"34,783",3,0.01,South
+42,2556,Maha Sarakham,"167,090","2,663",1.59,East north
+43,2556,Mukdahan,"59,443",387,0.65,East north
+44,2556,Mae Hong Son,"41,578","4,038",9.71,North
+45,2556,Yasothon,"92,976",579,0.62,East north
+46,2556,Yala,"62,692",51,0.08,South
+47,2556,Roi Et,"218,375","1,292",0.59,East north
+48,2556,Ranong,"28,245",22,0.08,South
+49,2556,Rayong,"59,035",14,0.02,East
+50,2556,Ratchaburi,"116,442",0,0,West
+51,2556,Lopburi,"117,420",97,0.08,Center
+52,2556,Lampang,"132,581",788,0.59,North
+53,2556,Lamphun,"80,222",431,0.54,North
+54,2556,Loei,"106,108",591,0.56,East north
+55,2556,Sisaket,"223,349","1,715",0.77,East north
+56,2556,Sakon Nakhon,"189,032",126,0.07,East north
+57,2556,Songkhla,"141,182",51,0.04,South
+58,2556,Satun,"45,710",2,0,South
+59,2556,Samut Prakan,"79,939",0,0,Center
+60,2556,Samut Songkhram,"27,213",0,0,Center
+61,2556,Samut Sakhon,"46,701",22,0.05,Center
+62,2556,Sa Kaeo,"82,606",144,0.17,East
+63,2556,Saraburi,"82,082",25,0.03,Center
+64,2556,Sing Buri,"33,641",77,0.23,Center
+65,2556,Sukhothai,"107,278",613,0.57,Center
+66,2556,Suphan Buri,"151,385",37,0.02,Center
+67,2556,Surat Thani,"135,962",178,0.13,South
+68,2556,Surin,"227,825","2,068",0.91,East north
+69,2556,Nong Khai,"73,872",904,1.22,East north
+70,2556,Nong Bua Lamphu,"64,968",335,0.52,East north
+71,2556,Ang Thong,"45,584",213,0.47,Center
+72,2556,Amnat Charoen,"61,068",481,0.79,East north
+73,2556,Udon Thani,"209,757","1,642",0.78,Center
+74,2556,Uttaradit,"80,315",465,0.58,North
+75,2556,Uthai Thani,"54,483",507,0.93,East north
+76,2556,Ubon Ratchathani,"292,363",345,0.12,East north
+1,2555,Krabi,"66,708",364,0.55,South
+2,2555,Kanchanaburi,"107,689",56,0.05,West
+3,2555,Kalasin,"153,819","1,419",0.92,East north
+4,2555,Kamphaeng Phet,"112,786",181,0.16,Center
+5,2555,Khon Kaen,"254,520","6,692",2.63,East north
+6,2555,Chanthaburi,"70,737",379,0.54,East
+7,2555,Chachoengsao,"86,972",75,0.09,East
+8,2555,Chon Buri,"81,154",26,0.03,East
+9,2555,Chai Nat,"64,213",110,0.17,Center
+10,2555,Chaiyaphum,"179,491","2,799",1.56,East north
+11,2555,Chumphon,"81,749",17,0.02,South
+12,2555,Chiang Rai,"193,121","2,063",1.07,North
+13,2555,Chiang Mai,"254,282","2,704",1.06,North
+14,2555,Trang,"100,282",46,0.05,South
+15,2555,Trat,"29,417",24,0.08,East
+16,2555,Tak,"72,394","3,190",4.41,West
+17,2555,Nakhon Nayok,"44,633",108,0.24,Center
+18,2555,Nakhon Pathom,"121,431",303,0.25,Center
+19,2555,Nakhon Phanom,"116,101","8,080",6.96,East north
+20,2555,Nakhon Ratchasima,"393,605","5,129",1.3,East north
+21,2555,Nakhon Si Thammarat,"232,835","4,606",1.98,South
+22,2555,Nakhon Sawan,"168,157",406,0.24,Center
+23,2555,Nonthaburi,"61,801",0,0,Center
+24,2555,Narathiwat,"89,702",948,1.06,South
+25,2555,Nan,"92,571","2,132",2.3,North
+26,2555,Bueng Kan,"57,188",636,1.11,East north
+27,2555,Buri Ram,"230,459","3,865",1.68,East north
+28,2555,Pathum Thani,"99,016",106,0.11,Center
+29,2555,Prachuap Khiri Khan,"63,038",600,0.95,West
+30,2555,Prachinburi,"77,553",230,0.3,East
+31,2555,Pattani,"81,538","2,701",3.31,South
+32,2555,Phra Nakhon Si Ayutthaya,"105,371",100,0.09,Center
+33,2555,Phayao,"85,966","5,254",6.11,North
+34,2555,Phangnga,"43,161",62,0.14,South
+35,2555,Phatthalung,"95,814","2,288",2.39,South
+36,2555,Phichit,"86,393","1,856",2.15,Center
+37,2555,Phitsanulok,"130,351",933,0.72,Center
+38,2555,Phetchaburi,"64,871","2,479",3.82,West
+39,2555,Phetchabun,"162,054","1,802",1.11,Center
+40,2555,Phrae,"87,421",524,0.6,North
+41,2555,Phuket,"34,193","1,300",3.8,South
+42,2555,Maha Sarakham,"166,165","5,646",3.4,East north
+43,2555,Mukdahan,"59,003",549,0.93,East north
+44,2555,Mae Hong Son,"42,239","6,572",15.56,North
+45,2555,Yasothon,"92,656","1,006",1.09,East north
+46,2555,Yala,"62,538",101,0.16,South
+47,2555,Roi Et,"217,469","1,829",0.84,East north
+48,2555,Ranong,"28,111",279,0.99,South
+49,2555,Rayong,"55,562",10,0.02,East
+50,2555,Ratchaburi,"116,178",88,0.08,West
+51,2555,Lopburi,"116,423",466,0.4,Center
+52,2555,Lampang,"131,909","1,677",1.27,North
+53,2555,Lamphun,"79,496",748,0.94,North
+54,2555,Loei,"108,370","1,363",1.26,East north
+55,2555,Sisaket,"220,869","4,446",2.01,East north
+56,2555,Sakon Nakhon,"191,584",792,0.41,East north
+57,2555,Songkhla,"143,669",159,0.11,South
+58,2555,Satun,"44,942",770,1.71,South
+59,2555,Samut Prakan,"79,977",26,0.03,Center
+60,2555,Samut Songkhram,"27,107",0,0,Center
+61,2555,Samut Sakhon,"44,315",136,0.31,Center
+62,2555,Sa Kaeo,"82,246",345,0.42,East
+63,2555,Saraburi,"80,542",156,0.19,Center
+64,2555,Sing Buri,"33,358",117,0.35,Center
+65,2555,Sukhothai,"105,230","1,215",1.15,Center
+66,2555,Suphan Buri,"150,621",100,0.07,Center
+67,2555,Surat Thani,"133,786",485,0.36,South
+68,2555,Surin,"226,699","3,773",1.66,East north
+69,2555,Nong Khai,"73,356",854,1.16,East north
+70,2555,Nong Bua Lamphu,"65,273",641,0.98,East north
+71,2555,Ang Thong,"45,669",446,0.98,Center
+72,2555,Amnat Charoen,"60,506",667,1.1,East north
+73,2555,Udon Thani,"206,656","2,602",1.26,Center
+74,2555,Uttaradit,"80,007",902,1.13,North
+75,2555,Uthai Thani,"54,305","2,182",4.02,East north
+76,2555,Ubon Ratchathani,"289,136","1,143",0.4,East north
