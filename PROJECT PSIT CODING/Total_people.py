@@ -58,7 +58,7 @@ def create_ghp(list_in):
     Creath the graph type Pie.
     """
     line_chart = pygal.Bar()
-    line_chart.title = ('จำนวนประชากรทั้งหมดแต่ละภาค ปี พ.ศ. 2555-2558')
+    line_chart.title = ('จำนวนประชากรทั้งหมดแต่ละภาค [CHART B3]\nปี พ.ศ. 2555-2558')
     line_chart.x_labels = map(str, range(2555, 2559))
     line_chart.add('North', list_in[5])
     line_chart.add('West', list_in[1])
