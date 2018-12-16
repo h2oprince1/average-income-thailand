@@ -32,7 +32,7 @@ def graph_per_year():
     data_y.append(y)
     y = 0
     ghp = pygal.Bar()
-    ghp.title = "จำนวนประชากรต่อครัวเรื่อนที่รายได้ต่ำกว่า 30,000 บาท ทั้งประเทศ \nปี พ.ศ. 2555-2558"
+    ghp.title = "จำนวนประชากรต่อครัวเรื่อนที่รายได้ต่ำกว่า 30,000 บาท ทั้งประเทศ [CHART B2]\nปี พ.ศ. 2555-2558"
     ghp.x_labels = data_x
     ghp.add("Amount people", data_y)
     return ghp.render_to_file('Chart/graph_per_year.svg')
