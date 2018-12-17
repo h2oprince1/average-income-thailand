@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+
+<html lang="th">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Average Income Analysis</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet" type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency-th.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet">
+	  <!--header icon -->
+	  <link rel="icon" href="img/favicon.ico" type="image/x-icon"> 
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <!-- .hvr-grow bug fixing line --> <b class="hvr-grow"></b>
+        <a class="navbar-brand js-scroll-trigger hvr-grow" href="#page-top">Average Income</a>
+        <!-- narrow browser title bug fixing line --> <b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b>
+        <button class="navbar-toggler navbar-toggler-right hvr-grow" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <!-- .hvr-grow bug fixing line --> <b class="hvr-grow"></b>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#overview">ภาพรวม</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#publishers">Presentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#summary">สรุป</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#tools">เครื่องมือ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-grow" href="#team">สมาชิก</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">ยินดีต้อนรับสู่เว็บไซต์โครงงานวิเคราะห์ข้อมูลของพวกเรา</div>
+          <div class="intro-heading text-uppercase">Average income of person per household Analysis</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger hvr-grow" href="#overview">ไปดูกันเถอะ!</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Overview -->
+    <section id="overview">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">ภาพรวม</h2>
+            <h3 class="section-subheading text-muted">รายได้เฉลี่ยต่อครัวเรือน ตั้งแต่ปีพ.ศ. 2555 ถึงปีพ.ศ. 2558 มาดูกันว่ารายได้เฉลี่ยน้อยกว่า 30,000 บาท จะมีมากหรือน้อย</h3>
+          </div>
+        </div>
+        <!-- Chart Carousel -->
+        <div class="container">
+          <div id="carousel_overview" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel_overview" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel_overview" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <!-- Chart #1 -->
+              <div class="carousel-item active">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_per_year.svg"/>
+                </figure>
+              </div>
+              <!-- Chart #2 -->
+              <div class="carousel-item">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_per_region.svg" />
+                </figure>
+              </div>
+            </div>
+            <div class="carousel-control-prev">
+              <a href="#carousel_overview" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon hvr-grow" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </div>
+            <div class="carousel-control-next">
+              <a href="#carousel_overview" role="button" data-slide="next">
+                <span class="carousel-control-next-icon hvr-grow" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <p style="text-indent: 2.5em;">จากกราฟ จะเห็นได้ว่าจำนวนคนต่อครัวเรือนที่มีรายได้ต่ำกว่า 30,000 บาท
+ตั้งแต่ปี พ.ศ. 2555 ถึงปี พ.ศ. 2558 จะพบว่าปี พ.ศ. 2555 มีจำนวนประชากรที่มีรายได้ต่ำกว่า 30,000 บาท มีมากกว่าในปีอื่น ๆ เนื่องมาจากในปี พ.ศ. 2554 เกิดอุทกภัย ทำให้ส่งผลกระทบต่อเศรษฐกิจในปี พ.ศ. 2555 เนื่องจากสินค้าจ่อราคาขึ้น ทำให้ประชาชนจับจ่ายใช้สอยในราคาของสินค้าที่แพงขึ้น
+ในส่วนของการผลิตทั้งภาคการเกษตร และอุตสาหกรรม โดยเฉพาะอุตสาหกรรมการผลิตในเขตนิคมอุตสาหกรรมในจังหวัดพระนครศรีอยุธยาและปทุมธานี ซึ่งเป็นแหล่งผลิตของอุตสาหกรรมยานยนต์
+และอิเล็กทรอนิกส์ นิคมอุตสาหกรรมที่เสียหายเป็นส่วนที่ผลิตชิ้นส่วนและวัตถุดิบต้นน้ำ จึงส่งผลกระทบต่อห่วงโซ่ของการผลิตของอุตสาหกรรมในจังหวัดอื่น ๆ ทำให้เกิดการขาดแคลนชิ้นส่วน และวัตถุดิบในการผลิต และอาจจะส่งผลกระทบต่อพนักงาน หรือผู้มีรายได้น้อยที่ทำงานในนิคมอุตสาหกรรม เนื่องจากมีการปลดพนักงานออก เนื่องมาจากการผลิตที่เสียหาย หรือขาดทุนมากเพราะมีบางส่วนเสียหายมาก จึงต้องทำการปลดพนักงานออก
+เพื่อไม่ให้มีต้นทุนในการผลิตที่เพิ่มสูงขึ้น เนื่องมาจากผลกระทบของอุทกภัย ในปี พ.ศ. 2554</p>
+          <p style="text-indent: 2.5em;">จากกราฟ จะเห็นได้ว่าจำนวนคนต่อครัวเรือนที่มีรายได้ต่ำกว่า 30,000 บาท โดยการแบ่งตามภาค ตั้งแต่ปี พ.ศ. 2555 ถึงปี พ.ศ. 2558 จะพบว่าภาคตะวันออกเฉียงเหนือ ในปี พ.ศ. 2555 ประชากรที่มีรายได้ต่ำกว่า 30,000 บาท นั้นมีมากกว่าในปีอื่น ๆ เนื่องจากผลกระทบส่วนใหญ่มาจากอุทกภัย ในปี พ.ศ. 2554 เพราะคนในพื้นที่ส่วนใหญ่
+			  จะประกอบอาชีพทางการเกษตรเป็นจำนวนมาก อาทิเช่น การทำนา เพาะปลูกมันสำปะหลัง หรือพืชชนิดต่าง ๆ ที่สามารถให้ผลผลิตและสามารถนำมาเป็นรายได้ให้แก่เกษตรกร และในปี พ.ศ. 2555 ส่งผลกระทบให้คนที่ประกอบอาชีพเกษตรกรรมมีรายได้น้อยลง เนื่องมาจากพืชที่เพาะปลูกในพื้นที่เสียหาย โดยเฉพาะข้าวที่เพาะปลูกในแปลงนาโดนน้ำท่วมขังเป็นจำนวนมาก จึงทำให้ไม่สามารถนำผลผลิตไปขายได้ หรือนำไปขายได้บางส่วน แต่ขายได้ในราคาที่ไม่สูงมากนัก</p>
+        </div>
+      </div>
+    </section>
+	   <!-- Releases -->
+    <section id="releases" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 id="topic3" class="section-heading text-uppercase">จำนวนประชากรที่รายได้ต่ำกว่า 30,000 บาท <br>และ <br>จำนวนประชากรทั้งหมด ของในแต่ละภาค</h2>
+            <h3 class="section-subheading text-muted">มาดูข้อมูลที่ลงรายละเอียดลงลึก ตอนนี้จะสามารถดูได้ว่าในแต่ละปีมีจำนวนประชากรที่รายได้ต่ำกว่า 30,000 บาท ของแต่ละภาคตั้งแต่ปี พ.ศ.2555 จนถึงปี พ.ศ.2558</h3>
+          </div>
+        </div>
+        <!-- Chart Carousel -->
+        <div class="container">
+          <div id="carousel_releases" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel_releases" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel_releases" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <!-- Chart #1 -->
+              <div class="carousel-item active">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_total_people_lowincome_each_years.svg" />
+                </figure>
+              </div>
+              <!-- Chart #2 -->
+              <div class="carousel-item">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_total_people_each_years.svg" />
+                </figure>
+              </div>
+            </div>
+            <div class="carousel-control-prev" >
+              <a href="#carousel_releases" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon hvr-grow" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </div>
+            <div class="carousel-control-next">
+              <a href="#carousel_releases" role="button" data-slide="next">
+                <span class="carousel-control-next-icon hvr-grow" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <h4><B>ภาคเหนือ</B></h4></li><p style="text-indent: 2.5em;">เราจะพบว่าประชากรในแต่ละปีจะเพิ่มขึ้นเรื่อย ๆ ตั้งแต่ปี พ.ศ. 2555 ที่มีประชากรอยู่ประมาณ 1,000,000 คน จนถึงปี พ.ศ. 2558 ประชากรเพิ่มขึ้นมาเป็นประมาณ 1,500,000 คน และ จำนวนประชากรที่รายได้ต่ำกว่า 30,000 บาท ลดลงจากปี พ.ศ. 2555 ที่มีประชากรรายได้ต่ำกว่าดังกล่าวอยู่ประมาณ 20,000 คน ลดลงมาเป็นประมาณ 10,000 คน ในปี พ.ศ. 2558</p>
+<p style="text-indent: 2.5em;">สำหรับ<b>ภาคเหนือ</b>นั้นมีประชากรที่มีรายได้ต่ำกว่า 30,000 บาทต่อปี นั้นลดลง ในขณะที่ประชากรนั้นเพิ่มขึ้น ในช่วงปี พ.ศ. 2555 จนถึงปี พ.ศ. 2556 นั้นลดลงเป็นอย่างมากในกรณีนี้อาจเป็นเพราะระบบเศรษฐกิจมีปัญหาจากการบริหารประเทศหรืออาจจะเป็นเพราะเหตุผลอื่น ๆ ที่จะนำไปวิเคราะห์ต่อไป
+</p>
+      <h4><B>ภาคตะวันออกเฉียงเหนือ</B></h4><p style="text-indent: 2.5em;">เราจะพบว่าประชากรในแต่ละปีจะเพิ่มขึ้นเรื่อย ๆ ตั้งแต่ปี พ.ศ. 2555 ที่มีประชากรอยู่ ประมาณ 3,200,000 คน จนถึงปี พ.ศ. 2558 ประชากรเพิ่มขึ้นมาเป็นประมาณเกือบ 4,500,000 คน และ จำนวนประชากรที่รายได้ต่ำกว่า 30,000 บาท ลดลงจากปี พ.ศ. 2555 ที่มีประชากรรายได้ต่ำกว่าดังกล่าวอยู่ประมาณ 53,500 คน ลดลงมาเป็นประมาณ 15,500 คน ในปี พ.ศ. 2558
+      </p>
+      <p style="text-indent: 2.5em;">สำหรับ<b>ภาคตะวันออกเฉียงเหนือ</b>นั้นมีประชากรค่อนข้างมากที่สุดในประเทศไทยและจะเห็นผลจากกราฟได้ชัดเจนที่สุดจากการลดลงของประชากรที่มีรายได้ต่ำกว่า 30,000 บาทต่อปี จากปี พ.ศ. 2555 ถึงปี พ.ศ. 2556 ประมาณ 35,000 คน
+      </p>
+			<h4><B>ภาคกลาง</B></h4><p style="text-indent: 2.5em;">เราจะพบว่าประชากรในแต่ละปีจะเพิ่มขึ้นเรื่อย ๆ ตั้งแต่ปี พ.ศ. 2555 ที่มีประชากรอยู่ ประมาณ 2,000,000 คน จนถึงปี พ.ศ. 2558 ประชากรเพิ่มขึ้นมาเป็นประมาณ 3,400,000 คน ในส่วนของจำนวนประชากรที่มีรายได้ต่ำกว่า 30,000 บาทต่อปี ของภาคกลางนั้น ในช่วงปี พ.ศ. 2555 ถึง ปี พ.ศ. 2556 จะมีการลดลดอย่างเห็นได้ชัดจากประมาณ 10,000 คน เป็นประมาณเกือบ 5,000 คน แต่ในปี พ.ศ. 2557 กลับเพิ่มขึ้นมาเป็น ประมาณ 12,000 คน ต่อเนื่องไปจนถึงปี พ.ศ. 2558</p>
+      <p style="text-indent: 2.5em;">สำหรับ<b>ภาคกลาง</b>ในช่วงปี พ.ศ. 2555 ถึงปี พ.ศ. 2556 เศรษฐกิจของประเทศไทยอาจจะค่อนข้างดี หรือเพราะเหตุผลอื่น ๆ จึงทำให้กราฟลดลงมาอย่างเห็นได้ชัดแต่หลังจากปี พ.ศ. 2556 เป็นต้นไปกลับมาเป็นประมาณ 10,000 คน เหมือนเดิม
+      </p>
+      <h4><B>ภาคใต้</B></h4><p style="text-indent: 2.5em;">เราจะพบว่าประชากรในแต่ละปีจะเพิ่มขึ้นเรื่อย ๆ ตั้งแต่ปี พ.ศ. 2555 ที่มีประชากรอยู่ ประมาณ 1,200,000 คน จนถึงปี ปี พ.ศ. 2558 ประชากรเพิ่มขึ้นมาเป็นประมาณ 1,900,000 คน และ จำนวนประชากรที่รายได้ต่ำกว่า 30,000 บาท ลดลงจากปี พ.ศ. 2555 ที่มีประชากรรายได้ต่ำกว่าดังกล่าวอยู่ประมาณ 14,000 คน ลดลงมาเป็นประมาณเกือบ 4,000 คนในปี พ.ศ. 2556 หลังจากนั้นในปีถัดมามีการเพิ่มขึ้นของ จำนวนประชากรที่รายได้ต่ำกว่า 30,000 บาท อย่างต่อเนื่อง
+      </p>
+<p style="text-indent: 2.5em;">สำหรับ<b>ภาคใต้</b>มีสภาพเหตุการณ์แนวโน้มเดียวกันกับ ภาคกลาง ซึ่งอาจเป็นเพราะประชากรที่เพิ่มขึ้นและมีเหตุผลอื่น ๆ เช่น สภาพเศรษฐกิจ
+</p>
+      <h4><B>ภาคตะวันตก</B></h4><p style="text-indent: 2.5em;">เราจะพบว่าประชากรในแต่ละปีจะเพิ่มขึ้นเรื่อย ๆ ตั้งแต่ปี พ.ศ. 2555 ที่มีประชากรอยู่ประมาณ 400,000 คน จนถึงปี ปี พ.ศ. 2558 ประชากรเพิ่มขึ้นมาเป็นประมาณ 640,000 คน และ จำนวนประชากรที่รายได้ต่ำกว่า 30,000 บาทต่อปี ลดลงจากปี พ.ศ. 2555 ที่มีประชากรรายได้ต่ำกว่าดังกล่าวอยู่ประมาณ 6,000 คน ลดลงมาเป็นประมาณ 2,000 คน ในปี พ.ศ. 2558
+      </p>
+<p style="text-indent: 2.5em;">สำหรับ<b>ภาคตะวันตก</b>มีสภาพเหตุการณ์แนวโน้มเดียวกันกับภาคเหนือซึ่งอาจเป็นเนื่องในเหตุผลเดียวกัน
+</p>
+			<h4><B>ภาคตะวันออก</B></h4><p style="text-indent: 2.5em;">เราจะพบว่าประชากรในแต่ละปีจะเพิ่มขึ้นเรื่อย ๆ ตั้งแต่ปี พ.ศ. 2555 ที่มีประชากรอยู่ ประมาณ 480,000 คน จนถึงปี ปี พ.ศ. 2558 ประชากรเพิ่มขึ้นมาเป็นประมาณ 1,000,000 คน และ จำนวนประชากรที่รายได้ต่ำกว่า 30,000 บาท ลดลงจากปี พ.ศ. 2555 ที่มีประชากรรายได้ต่ำกว่าดังกล่าวอยู่ประมาณ 53,500 คน ลดลงมาเป็นประมาณ 15,500 คนในปี พ.ศ. 2558
+      </p>
+<p style="text-indent: 2.5em;">สำหรับ<b>ภาคตะวันออก</b>มีสภาพเหตุการณ์แนวโน้มเดียวกันกับภาคเหนือ ภาคตะวันตก และภาคตะวันออกเฉียงเหนือ ซึ่งอาจมาจากสาเหตุเดียวกัน
+</p>
+<center>
+  <h3>สรุปการวิเคราะห์ จาก CHART B3 และ CHART B4</h3>
+</center>
+  <p>&emsp;&emsp;&ensp;จากการวิเคราะห์ ขอยกเหตุการณ์ของประเทศไทยช่วงปี พ.ศ. 2555 ถึงปี พ.ศ. 2556 ว่าทำไมถึงมีการลดลงของ <b>จำนวนประชากรที่รายได้ต่ำกว่า 30,000 บาท</b> ของแต่ละภูมิภาคของประเทศไทยเป็นอย่างมาก สำหรับในช่วงปี พ.ศ. 2555 ถึงปี พ.ศ. 2556 เนื่องในช่วงปีระหว่างนี้ ประเทศไทยมีเหตุการณ์ <b>กำหนดค่าแรงขั้นต่ำ 300 บาท</b>    <I>(ข้อมูลจาก : “www.thairath.co.th” หัวข้อข่าว “เปิดบันทึก 10 อันดับ ที่สุดเศรษฐกิจปี 55")</I>
+    ทำให้ประชากรภายในประเทศไทยส่วนใหญ่มีรายได้เพิ่มขึ้นจะเห็นได้ชัดจากกราฟที่มี <b>จำนวนประชากรที่รายได้ต่ำกว่า 30,000 บาท</b> ลดลง แต่สำหรับบางภูมิภาค เช่น ภาคกลาง และ ภาคใต้ ของประเทศไทยหลังจากเหตุการณ์ดังกล่าวใน ปีต่อมา ๆ มีการเพิ่มขึ้นของ <b>จำนวนประชากรที่รายได้ต่ำกว่า 30,000 บาท</b> นั้นอาจเป็นเพราะว่าจำนวนประชากรของประเทศไทยมีการเพิ่มขึ้นอย่างต่อเนื่องและทำให้เกิดการว่าจ้างงานโดยนายจ้างอาจจะมีการลดทอนรายได้ของงานระดับแรงงานลง เนื่องด้วยอาจจะเพราะรายจ่ายของนายจ้างเอง และอาจเป็นเพราะประเทศไทยต้องการลดปัญหาการว่างงานด้วย เพราะในช่วงปี พ.ศ. 2555 ถึงปี พ.ศ. 2556 มีการกำหนดค่าแรงขั้นต่ำนั้น ส่งผลกระทบทำให้บริษัทหลาย ๆ บริษัทได้รับผลกระทบทางการเงินที่ต้องจ่ายให้ผู้รับจ้าง จึงมีการจ้างงานน้อยลง&ensp;ด้วยเหตุผลนี้เองจึงอาจทำให้รายได้ของประชากรขั้นต่ำ ต่ำกว่า 300 บาท และกราฟจึงมี จำนวนประชากรที่รายได้ต่ำกว่า 30,000 บาท เพิ่มขึ้นอย่างเห็นได้ชัดในบางภูมิภาค
+    </p>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 2557 - 2558 -->
+    <section id="sales" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div id="topic2" class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">รายได้ของคนต่อครัวเรือนที่มีรายได้น้อยกว่า 30,000 บาท<br>โดยการแบ่งตามปี</h2>
+            <h3 class="section-subheading text-muted">ที่นี่เรามาดูข้อมูลที่ละเอียดลงลึกกัน ตอนนี้จะสามารถดูได้ว่าในแต่ละปีว่าคนต่อครัวเรือนที่มีรายได้น้อยกว่า 30,000 บาท ตั้งแต่ปี 2555 จนถึงปี 2558</h3>
+          </div>
+        </div>
+        <!-- Chart Years 2555 - 2558 -->
+        <div class="container">
+          <div id="carousel_sales" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel_sales" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel_sales" data-slide-to="1"></li>
+              <li data-target="#carousel_sales" data-slide-to="2"></li>
+				<li data-target="#carousel_sales" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <!-- Chart #1 -->
+              <div class="carousel-item active">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_percen55.svg"/>
+                </figure>
+              </div>
+			<!-- Chart #2 -->
+              <div class="carousel-item">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_percen56.svg" />
+                </figure>
+              </div>
+              <!-- Chart #3 -->
+              <div class="carousel-item">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_percen57.svg" />
+                </figure>
+              </div>
+              <!-- Chart #4 -->
+              <div class="carousel-item">
+                <figure>
+                  <embed type="image/svg+xml" src="chart/graph_percen58.svg" />
+                </figure>
+              </div>
+            </div>
+            <div class="carousel-control-prev" >
+              <a href="#carousel_sales" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon hvr-grow" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </div>
+            <div class="carousel-control-next">
+              <a href="#carousel_sales" role="button" data-slide="next">
+                <span class="carousel-control-next-icon hvr-grow" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+		<h4><B>ปีพ.ศ. 2555</B></h4>
+          <h6><B>ภาคเหนือ</B></h6><p style="text-indent: 2.5em;">พบว่ามีร้อยละ 20.73 ของประชากรทั้งหมดในประเทศ</p>
+			<h6><B>ภาคตะวันออกเฉียงเหนือ</B></h6><p style="text-indent: 2.5em;">พบว่ามีร้อยละ 49.14  ของประชากรทั้งหมดในประเทศ</p>
+			<h6><B>ภาคกลาง</B></h6><p style="text-indent: 2.5em;">พบว่ามีร้อยละ 10.26  ของประชากรทั้งหมดในประเทศ</p>
+			<h6><B>ภาคใต้</B></h6><p style="text-indent: 2.5em;">พบว่ามีร้อยละ 12.97 ของประชากรทั้งหมดในประเทศ</p>
+			<h6><B>ภาคตะวันตก</B></h6><p style="text-indent: 2.5em;">พบว่ามีร้อยละ 5.89  ของประชากรทั้งหมดในประเทศ</p>
+			<h6><B>ภาคตะวันออก</B></h6><p style="text-indent: 2.5em;">พบว่ามีร้อยละ 1 ของประชากรทั้งหมดในประเทศ</p>
+			
+			<h4><B>ปีพ.ศ. 2556</B></h4>
+          <h6><B>ภาคเหนือ</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 20.73% เป็น 23.98% ซึ่งเพิ่มขึ้น 3.25% </p>
+			<h6><B>ภาคตะวันออกเฉียงเหนือ</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 49.14%  เป็น 52.75% ซึ่งเพิ่มขึ้น 3.61%</p>
+			<h6><B>ภาคกลาง</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 10.26% เป็น 10.72% ซึ่งเพิ่มขึ้น 0.46 %</p>
+			<h6><B>ภาคใต้</B></h6><p style="text-indent: 2.5em;">พบว่ามีร้อยละ 12.97 ของประชากรทั้งหมดในประเทศ</p>
+			<h6><B>ภาคตะวันตก</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 5.89 % เป็น 2.84%   ซึ่งลดลง 3.25%</p>
+			<h6><B>ภาคตะวันออก</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 1% เป็น 1.12% ซึ่งเพิ่มขึ้น 0.12%</p>
+			
+			<h4><B>ปีพ.ศ. 2557</B></h4>
+          <h6><B>ภาคเหนือ</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 23.98% เป็น 20.2% ซึ่งลดลง 3.78%</p>
+			<h6><B>ภาคตะวันออกเฉียงเหนือ</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 52.75% เป็น 31.54% ซึ่งลดลง 21.21% </p>
+			<h6><B>ภาคกลาง</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 10.72% เป็น 21.97% ซึ่งเพิ่มขึ้น 11.25% </p>
+			<h6><B>ภาคใต้</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 8.59% เป็น 16.17% ซึ่งเพิ่มขึ้น 7.58% </p>
+			<h6><B>ภาคตะวันตก</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 2.87% เป็น 5.46%  ซึ่งเพิ่มขึ้น 2.62% </p>
+			<h6><B>ภาคตะวันออก</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 1.12% เป็น 4.66% ซึ่งเพิ่มขึ้น 3.54% </p>
+			
+			<h4><B>ปีพ.ศ. 2558</B></h4>
+          <h6><B>ภาคเหนือ</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 20.2% เป็น 20.38% ซึ่งเพิ่มขึ้น 0.18% </p>
+			<h6><B>ภาคตะวันออกเฉียงเหนือ</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 31.54% เป็น 30.36% ซึ่งลดลง 1.18% </p>
+			<h6><B>ภาคกลาง</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 20.24% เป็น 21.97% ซึ่งเพิ่มขึ้น 1.73% </p>
+			<h6><B>ภาคใต้</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 16.17% เป็น 20.79% ซึ่งเพิ่มขึ้น 4.62%</p>
+			<h6><B>ภาคตะวันตก</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 5.46% เป็น 4.1 %  ซึ่งลดลง 1.36% </p>
+			<h6><B>ภาคตะวันออก</B></h6><p style="text-indent: 2.5em;">พบว่ามีการเปลี่ยนแปลงจาก 4.66% เป็น 4.13% ซึ่งลดลง 0.53% </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Publishers -->
+    <section id="publishers">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Presentation</h2>
+            <h3 class="section-subheading text-muted">หลังจากที่ได้นำข้อมูลมาวิเคราะห์แล้วนั้น เราจะมาอธิบายให้ฟังว่าเกิดอะไรขึ้นบ้าง!</h3>
+          </div>
+        </div>
+        <div class="modal-body">
+        </div>
+      </div>
+    </section>
+
+        <!-- Summary -->
+    <section id="summary" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">สรุป</h2>
+            <h3 class="section-subheading text-muted">จากบทความข้างต้นทั้งหมด เราได้อะไรมาบ้าง?</h3>
+          </div>
+        </div>
+
+        <div class="modal-body">
+          <h5>เราได้รู้อะไรเพิ่มขึ้นมาบ้าง?</h5>
+          <p><ul>
+            <li>จากหัวข้อ<a href="#releases">จำนวนคนที่มีรายได้ต่ำกว่า 30,000 บาท โดยการแบ่งตามภาค</a>&emsp;เราได้รู้เกี่ยวกับรายเฉลี่ยของประชากรในประเทศโดยการแบ่งตามภาค ว่ามีจำนวนมากหรือน้อย ที่มีรายเฉลี่ยน้อยกว่า 30,000 บาท และได้รู้ว่าภาคไหนที่มีรายได้เฉลี่ยต่ำกว่า 30,000 บาท ที่มากที่สุด หรือน้อยที่สุด</li>
+            <li>จากหัวข้อ<a href="#topic2">รายได้ของคนต่อครัวเรือนที่มีรายได้น้อยกว่า 30,000 บาท โดยการแบ่งตามปี</a>เราได้รู้เกี่ยวกับอัตราการขึ้นและลง ของรายได้เฉลี่ยของประชากรที่มีรายได้น้อยกว่า 30,000 บาท ว่าในแต่ละปีนั้น มีอัตราขึ้นและลงเท่าใด</li>
+            <li>จากหัวข้อ<a href="#topic3">จำนวนประชากรทั้งหมดในแต่ภาค</a>&emsp;เราได้รู้ว่า&ensp;ในทุก&ensp;ๆ&ensp;ปีประชากรของประเทศไทยมีการเพิ่มขึ้นอย่างต่อเนื่องจากปี พ.ศ. 2555 ถึง พ.ศ. 2556 และคิดว่าแนวโน้มนี้อาจจะเป็นไปได้ต่อปีถัด ๆ ไป</li>
+            <li>พวกเราได้พบว่า ได้ดังนี้
+              <ul>
+                <li><b>ในปี พ.ศ.2555</b>  มีประชากรที่รายได้ต่ำกว่า 30,000 บาทต่อปี ค่อนข้างเยอะ </li>
+                <li><b>ในปี พ.ศ.2556</b>  ประชากรเพิ่มขึ้นจากปี พ.ศ.2555 แปรผกผันกับประชากรที่รายได้ต่ำกว่า 30,000 บาทต่อปี ที่มีการลดลงชัดเจน</li>
+                <li><b>ในปี พ.ศ.2557</b>  ประชากรเพิ่มขึ้นจากปี พ.ศ.2556 แปรผกผันกับประชากรที่รายได้ต่ำกว่า 30,000 บาทต่อปี ยกเว้นภาคกลาง และภาคใต้</li>
+			 	<li><b>ในปี พ.ศ.2558</b>   ประชากรเพิ่มขึ้นจากปี พ.ศ.2557 แปรผกผันกับประชากรที่รายได้ต่ำกว่า 30,000 บาทต่อปี ยกเว้นภาคกลาง และภาคใต้</li>
+              </ul>
+            </li>
+          </ul></p><br>
+          <h5>เราจะนำมาปรับใช้กับชีวิตของเราอย่างไรได้บ้าง?</h5>
+          <p><ul>
+            <li>ถ้าคุณอยากจะเป็นนักวิเคราะห์เศรษฐกิจ หรืออะไรก็ตามที่เกี่ยวกับเศรษฐศาสตร์ เราได้รู้แล้วว่ามีปัจจัยอะไรบ้างที่ส่งผลต่อรายได้
+				ของประชากร ดังนั้นเราจะต้องมีการวางแผนในเรื่องของเศรษฐกิจให้เพิ่มมากขึ้นกว่าที่เป็นอยู่ในปัจจุบัน เพื่อคนที่มีรายได้น้อย
+				   จะได้น้อยลง และมีรายได้เพิ่มมากขึ้นจากที่ได้ในตอนนี้
+              <ul>
+                <li>เราควรแก้ปัญหาอย่างไร?</li>
+                <li>เราควรวางอย่างไรให้คนที่มีรายได้น้อยมีรายได้เพิ่มมากขึ้น?</li>
+              </ul></li>
+            <li>จากที่เราได้นำหัวข้อ รายได้เฉลี่ยของครัวเรือนที่มีรายได้เฉลี่ยน้อยกว่า 30,000 บาท มาวิเคราะห์ทำให้เราได้รู้ว่า
+		  แต่ละภาคของประเทศไทย และแต่ละปีของประเทศไทย มีประชากรที่มีรายได้เฉลี่ยน้อยกว่า 30,000 บาท มีมากหรือน้อยเพียงใด เพื่อที่เราจะได้นำข้อมูลที่เรานำมาศึกษาและนำมาวิเคราะห์ นำไปใช้ให้เกิดประโยชน์มากที่สุด เพื่อจำนวนรายได้เฉลี่ยของครัวเรือนที่มีรายได้น้อยกว่า 30,000 บาท จะได้มีจำนวนที่น้อยลงและทำให้มีรายได้เพิ่มมากขึ้น</li>
+            <li>จากหัวข้อ<a href="#releases">จำนวนคนที่มีรายได้เฉลี่ยต่ำกว่า 30,000 บาท โดยการแบ่งตามภาค</a>โดยในแต่ละภูมิภาคมีการประกอบอาชีพที่แตกต่างกันไปตามพื้นที่ ดังนั้นเราจึงต้องมีการประกอบอาชีพไปตามความเหมาะสมของพื้นที่ ในภาคนั้น ๆ</li>
+          </ul></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools -->
+    <section id="tools">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">เครื่องมือ</h2>
+            <h3 class="section-subheading text-muted">สิ่งที่พวกเราใช้ในการทำให้โครงงานนี้เสร็จสมบูรณ์</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x hvr-bob">
+              <a href="https://github.com" target="_blank">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <h4 class="service-heading">GitHub</h4>
+            <p class="text-muted">สำหรับทำโครงงานกันเป็นกลุ่ม</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x hvr-bob">
+              <a href="https://pages.github.com" target="_blank">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-file-code-o fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <h4 class="service-heading">GitHub Pages</h4>
+            <p class="text-muted">สำหรับสร้างเว็บไซต์โครงงาน เว็บไซต์นี้นั่นเอง</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x hvr-bob">
+              <a href="https://www.python.org" target="_blank">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <h4 class="service-heading">Python</h4>
+            <p class="text-muted">ภาษาโปรแกรมมิงที่ใช้ในโครงงานนี้เป็นหลัก</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x hvr-bob">
+              <a href="http://www.numpy.org" target="_blank">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-superscript fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <h4 class="service-heading">Numpy</h4>
+            <p class="text-muted">หนึ่งใน library ภายนอกของภาษา python ใช้ในการจัดการข้อมูล array</p>
+          </div>
+          <div class="col-md-4" colspan="2">
+            <span class="fa-stack fa-4x hvr-bob">
+              <a href="http://pygal.org/en/stable" target="_blank">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
+              </a>
+            </span>
+            <h4 class="service-heading">Pygal</h4>
+            <p class="text-muted">หนึ่งใน library ภายนอกของภาษา python ใช้ในการสร้างกราฟ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">สมาชิก</h2>
+            <h3 class="section-subheading text-muted">เป็นทีมที่แจ่มแมวมาก</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/profile/tawan.png" alt="">
+              <h4>นายภูตะวัน เนาวรัตน์พนมมาศ</h4>
+              <p class="text-muted">ตะวัน</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://github.com/PhutawanITF61" target='_blank' class="hvr-grow">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/profile/tom.png" alt="">
+              <h4>นายเตชินท์ โค้วประเสริฐ </h4>
+              <p class="text-muted">ต้อม</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://github.com/POKINBKK" target='_blank' class="hvr-grow">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/profile/fluke.png" alt="">
+              <h4>นายภาคภูมิ พงศ์สุข</h4>
+              <p class="text-muted">ฟลุ๊ค</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://github.com/h2oprince1" target='_blank' class="hvr-grow">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle hvr-rotate" src="img/profile/jack.png" alt="">
+              <h4>นายณรงค์ฤทธิ์ ทองดี</h4>
+              <p class="text-muted">แจ็ค</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://github.com/itluciano" target='_blank' class="hvr-grow">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">โครงงานนี้เป็นส่วนหนึ่งของวิชา 06016314 Problem Solving in Information Technology (PSIT) 
+				<br>
+				คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (สจล.)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <p>ขอบคุณเทมเพลตจาก
+                  <a href="https://startbootstrap.com/template-overviews/agency/" target='_blank'>Start Bootstrap</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://github.com/h2oprince1/ProjectPsit/blob/master/README.md" target='_blank' class="hvr-grow">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <p>ขอบคุณฐานข้อมูลจาก <a href="https://data.go.th/DatasetDetail.aspx?id=0d929453-42e0-4c8c-bac2-5a73e53fde65" target='_blank'>DGAThailand</a></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
+
+</html>
