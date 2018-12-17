@@ -13,8 +13,8 @@ Project ของพวกเราจะวิเคราะห์ข้อม
 
 # Statics 
 * **Started :** 14th December 2018
-* **Completed :** 17th December 2018
-* **Total Days :** Days
+* **Completed :** 19th December 2018
+* **Total Days :** 6 Days
 * **Main Language :** Python
 * **Other Language :** HTML, CSS, JavaScript
 
