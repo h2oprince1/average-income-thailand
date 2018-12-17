@@ -7,13 +7,13 @@ King Mongkut's Institute of Technology Ladkrabang *(KMITL)*.
 Project ของพวกเราจะวิเคราะห์ข้อมูลของประเทศไทยเกี่ยวกับจำนวนครัวเรือนที่คนในครัวเรือนมีรายได้เฉลี่ยน้อยกว่า 30,000 บาท ต่อคนต่อปีโดยจะแสดงผลเป็นกราฟข้อมูลของแต่ละปีและทำการสรุป
 
 # Information
-* **Project Site :**
-* **Last Updated :**
-* **Project Status:**
+* **Project Site : https://h2oprince1.github.io/average-income-thailand/**
+* **Last Updated : 17th December 2561**
+* **Project Status: Completed**
 
 # Statics 
 * **Started :** 14th December 2018
-* **Completed :** th December 2018
+* **Completed :** 17th December 2018
 * **Total Days :** Days
 * **Main Language :** Python
 * **Other Language :** HTML, CSS, JavaScript
