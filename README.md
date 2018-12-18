@@ -8,7 +8,7 @@ Project ของพวกเราจะวิเคราะห์ข้อม
 
 # Information
 * **Project Site : https://h2oprince1.github.io/average-income-thailand/**
-* **Video Present : https://www.youtube.com/watch?v=qfKXQfk4MIw&feature=youtu.be
+* **Video Present : https://www.youtube.com/watch?v=qfKXQfk4MIw&feature=youtu.be**
 * **Last Updated : 19th December 2561**
 * **Project Status: Completed**
 
